@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main--bcolor : #00669F;
+}
+.descuento{
+  background-color:#1CD1B0;
+  position: relative;
+  padding: 0 15px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+header{
+    background-color:#00669F;
+    color: #FFF;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0px;
+}
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin-bottom: 20px;
+    margin-left: 550px;
+    border-bottom: solid 3px rgba(165, 164, 164,0.8);
+   
+}
+
+.cardImgcardImg- img{
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 15px 15px 0 0;
+    z-index: -1;
+   }
+
+.cardImgcardImg-  i{
+    left: 10px;
+    top: 0%;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #CC2424;
+    z-index: 10;
+}
+.cardText {
+    position: absolute;
+    background-color : #F3F3F3;
+    left: 100px;
+    top : 130px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(148, 140, 140, 0.25);
+    margin: auto;
+    }
+.cardText p {
+        position: relative;
+        margin-top: 200px;
+        width: 250px;
+        right: 75px;
+        top: -100px;
+        text-align: justify;
+    }
+
+button {
+    background-color:var(--main--bcolor) ;
+    margin-left: -20px;
+    margin-top : -20px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #FFF;
+}
+
+h2 {
+    position: relative;
+    width: 250px;
+    right:70px ;
+    top: 100px;
+    text-align: center;
+}
+
+#imgMujerMaravilla{
+    background-size: 100px;
+    background-position: 58% 0;
+    background-image: url(../Imagenes/wonderw.jpg);
+
+}
+#imgBatman{
+    background-size: 300px;
+    background-position: 58% 0;
+    background-image: url(../Imagenes/batman.jpg);
+}
+#imgSuperman{
+    margin: auto ;
+    background-size: 150px;
+    background-position: 58% 0;
+    background-image: url(../Imagenes/superman.jpg);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color:#00669F ;
+    height: 50px;
+    
+}
+footer p {
+    position: absolute;
+    display: inline-block;
+    color: #FFF;
+    font-size: 20px;
+    margin-left: 480px;
+    margin-top: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+section i{
+    position: sticky;
+    color: #00669F ;
+    font-size: 50px;
+    left: 95%;
+    top: 60%;
+}
