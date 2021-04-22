@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/CSS/formr.css">
+</head>
+<body>
+    <div class="descuento">Descuento 20% en todos los productos</div>
+    <header>
+        <img src="/Imagenes/OBJECTS.png" alt="tienda">
+        <h2> Nombre Tienda </h2>
+     </header>
+     <main>
+         <section>
+             <div class = "registro">
+                 <h1>Registro</h1>
+                 <form action="index.html" method="POST">
+                     <label for="Nombre y Apellido"></label>
+                     <input type="text" id ="Nombre y Apellido" name="Nombre y Apellido" placeholder="Nombre y Apellido">
+                     <label for="Correo Electronico"></label>
+                     <input type="email" id="Correo Electronico" name="Correo Electronico" placeholder="Correo Electronico">
+                     <label for="contrseña"></label>
+                     <input type="password" id="contrseña" name="constraseña" placeholder="contraseña">
+                     <label for="pais"></label>
+                    <select name="País" id="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Venezuela">Venezuela</option>
+                    </select>
+                    <button type="reset" class="resetear">Resetear</button>
+                    <button type="submit">Enviar</button>
+                     <p><a href="" >¿Ya tienes una cuenta?</a> Ingresa </p>
+                 </form>
+             </div>
+         </section>
+     </main>
+     <footer>
+        <p>
+            Todos los derechos reservados a FRONT END 1
+        </p>
+    </footer>
+</body>
+</html>
